@@ -16,5 +16,8 @@ public class Main {
 
         double divideTwoNumber= calculator.divide(5,10);
         System.out.println(divideTwoNumber);
+
+        double modularDivideTwoNumber= calculator.modularDivision(5,12);
+        System.out.println(modularDivideTwoNumber);
     }
 }
