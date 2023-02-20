@@ -51,7 +51,7 @@
       <recent name="com.niit.bej" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CalculatorTest.divideByZero">
+  <component name="RunManager" selected="JUnit.CalculatorTest.modularDivisionByZero">
     <configuration name="CalculatorTest.addFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BEJ_C1_S1_Maven_structure_MC_1_Calculator" />
       <extension name="coverage">
@@ -100,8 +100,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CalculatorTest.modularDivisionByZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BEJ_C1_S1_Maven_structure_MC_1_Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.bej.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.niit.bej" />
+      <option name="MAIN_CLASS_NAME" value="com.niit.bej.CalculatorTest" />
+      <option name="METHOD_NAME" value="modularDivisionByZero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CalculatorTest.modularDivisionByZero" />
         <item itemvalue="JUnit.CalculatorTest.divideByZero" />
         <item itemvalue="JUnit.CalculatorTest.addFailure" />
         <item itemvalue="JUnit.CalculatorTest.addSuccess" />

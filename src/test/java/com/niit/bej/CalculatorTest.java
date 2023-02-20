@@ -75,7 +75,14 @@ class CalculatorTest {
     @Test
     void modularDivision() {
         double expected = 0;
-        double actual = calculator.modularDivision(10, 5);
+        double actual = calculator.modularDivision(10, 50);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void modularDivisionByZero() {
+        double expected = 0;
+        double actual = calculator.modularDivision(0, 5);
         assertEquals(expected, actual);
     }
 }
