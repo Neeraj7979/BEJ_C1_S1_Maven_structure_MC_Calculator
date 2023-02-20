@@ -7,5 +7,8 @@ public class Main {
 
         double addTwoNumber= calculator.add(5,10);
         System.out.println(addTwoNumber);
+
+        double subtractTwoNumber= calculator.sub(5,10);
+        System.out.println(subtractTwoNumber);
     }
 }
