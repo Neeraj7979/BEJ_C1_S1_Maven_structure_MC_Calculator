@@ -13,6 +13,15 @@ public class Calculator {
     public double multiply(double num1, double num2) {
         return num1 * num2;
     }
+    public double divide(double divisor, double dividend) {
+        if (divisor == 0) {
+            return 0;
+        } else {
+            return dividend / divisor;
+        }
+    }
+
+
 
 
 
