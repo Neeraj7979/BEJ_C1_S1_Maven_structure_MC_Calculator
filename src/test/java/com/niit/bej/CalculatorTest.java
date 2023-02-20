@@ -4,7 +4,8 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
 class CalculatorTest {
     Calculator calculator;
@@ -30,12 +31,23 @@ class CalculatorTest {
     void addFailure() {
         double expected=12;
         double actual=calculator.add(5,10);
-        assertNotEquals(expected,actual);
+        assertNotEquals(expected, actual);
 
     }
 
     @Test
-    void sub() {
+    void subSuccess() {
+        double expected = 5;
+        double actual = calculator.sub(5, 10);
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void subFailure() {
+        double expected = 12;
+        double actual = calculator.sub(5, 10);
+        assertNotEquals(expected, actual);
+
     }
 
     @Test
