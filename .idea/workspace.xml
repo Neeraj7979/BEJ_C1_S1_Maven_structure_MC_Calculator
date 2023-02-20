@@ -1,11 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1d0072bc-fc88-4ea9-ae6f-a512eccc0be9" name="Changes" comment="" />
+    <list default="true" id="1d0072bc-fc88-4ea9-ae6f-a512eccc0be9" name="Changes" comment="called method modular divide from calculator class to modular division of two numbers">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/niit/bej/CalculatorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2M097rxg99yag3AxqD7h6akleEO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,9 +35,54 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.CalculatorTest.addFailure">
+    <configuration name="CalculatorTest.addFailure" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BEJ_C1_S1_Maven_structure_MC_1_Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.bej.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.niit.bej" />
+      <option name="MAIN_CLASS_NAME" value="com.niit.bej.CalculatorTest" />
+      <option name="METHOD_NAME" value="addFailure" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculatorTest.addSuccess" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BEJ_C1_S1_Maven_structure_MC_1_Calculator" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.niit.bej.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.niit.bej" />
+      <option name="MAIN_CLASS_NAME" value="com.niit.bej.CalculatorTest" />
+      <option name="METHOD_NAME" value="addSuccess" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.CalculatorTest.addFailure" />
+        <item itemvalue="JUnit.CalculatorTest.addSuccess" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -28,6 +92,125 @@
       <option name="presentableId" value="Default" />
       <updated>1676893471641</updated>
     </task>
+    <task id="LOCAL-00001" summary="initial commit">
+      <created>1676893494522</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676893494522</updated>
+    </task>
+    <task id="LOCAL-00002" summary="created dependencies for junit5 in pom.xml">
+      <created>1676893564215</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676893564215</updated>
+    </task>
+    <task id="LOCAL-00003" summary="created class calculator.java">
+      <created>1676893653596</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676893653596</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created method for adding two number">
+      <created>1676893696175</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676893696175</updated>
+    </task>
+    <task id="LOCAL-00005" summary="created method for subtracting two number">
+      <created>1676893743988</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676893743988</updated>
+    </task>
+    <task id="LOCAL-00006" summary="created method for multiplying two number">
+      <created>1676893782263</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676893782263</updated>
+    </task>
+    <task id="LOCAL-00007" summary="created method to divide two number">
+      <created>1676893815667</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676893815667</updated>
+    </task>
+    <task id="LOCAL-00008" summary="created method to  modular divide two number">
+      <created>1676893835502</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1676893835502</updated>
+    </task>
+    <task id="LOCAL-00009" summary="called method add from calculator class to add two numbers">
+      <created>1676893986898</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1676893986899</updated>
+    </task>
+    <task id="LOCAL-00010" summary="called method sub from calculator class to add two numbers">
+      <created>1676894031130</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1676894031130</updated>
+    </task>
+    <task id="LOCAL-00011" summary="called method multiply from calculator class to multiply two numbers">
+      <created>1676894083318</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1676894083318</updated>
+    </task>
+    <task id="LOCAL-00012" summary="called method divide from calculator class to divide two numbers">
+      <created>1676894132334</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1676894132334</updated>
+    </task>
+    <task id="LOCAL-00013" summary="called method modular divide from calculator class to modular division of two numbers">
+      <created>1676894202118</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1676894202118</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial commit" />
+    <MESSAGE value="created dependencies for junit5 in pom.xml" />
+    <MESSAGE value="created class calculator.java" />
+    <MESSAGE value="created method for adding two number" />
+    <MESSAGE value="created method for subtracting two number" />
+    <MESSAGE value="created method for multiplying two number" />
+    <MESSAGE value="created method to divide two number" />
+    <MESSAGE value="created method to  modular divide two number" />
+    <MESSAGE value="called method add from calculator class to add two numbers" />
+    <MESSAGE value="called method sub from calculator class to add two numbers" />
+    <MESSAGE value="called method multiply from calculator class to multiply two numbers" />
+    <MESSAGE value="called method divide from calculator class to divide two numbers" />
+    <MESSAGE value="called method modular divide from calculator class to modular division of two numbers" />
+    <option name="LAST_COMMIT_MESSAGE" value="called method modular divide from calculator class to modular division of two numbers" />
   </component>
 </project>
