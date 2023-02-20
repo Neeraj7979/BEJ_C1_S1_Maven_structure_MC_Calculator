@@ -10,5 +10,8 @@ public class Main {
 
         double subtractTwoNumber= calculator.sub(5,10);
         System.out.println(subtractTwoNumber);
+
+        double multiplyTwoNumber= calculator.multiply(5,10);
+        System.out.println(multiplyTwoNumber);
     }
 }
