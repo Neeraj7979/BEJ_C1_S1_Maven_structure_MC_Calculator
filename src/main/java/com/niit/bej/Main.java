@@ -13,5 +13,8 @@ public class Main {
 
         double multiplyTwoNumber= calculator.multiply(5,10);
         System.out.println(multiplyTwoNumber);
+
+        double divideTwoNumber= calculator.divide(5,10);
+        System.out.println(divideTwoNumber);
     }
 }
