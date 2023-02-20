@@ -20,6 +20,13 @@ public class Calculator {
             return dividend / divisor;
         }
     }
+    public double modularDivision(int divisor, int dividend) {
+        if (divisor == 0) {
+            return 0;
+        } else {
+            return dividend % divisor;
+        }
+    }
 
 
 
